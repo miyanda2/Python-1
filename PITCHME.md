@@ -261,3 +261,70 @@ following code in shell once you run the above program.
 >>> print(double.__doc__)
 Function to double the value
 ```
+---
+### Python Variables
+<br>
+A variable is a location in memory used to store some data (value).
+
+They are given unique names to differentiate between different memory locations. The rules for writing a variable name is same as the rules for writing identifiers in Python.
+
+We don't need to declare a variable before using it. In Python, we simply assign a value to a variable and it will exist. We don't even have to declare the type of the variable. This is handled internally according to the type of value we assign to the variable.
+---
+
+### Variable assignment
+<br>
+We use the assignment operator (=) to assign values to a variable. Any type of value can be assigned to any valid variable.
+```python
+a = 5
+b = 3.2
+c = "Hello"
+```
+<br>
+Here, we have three assignment statements. 5 is an integer assigned to the variable a.
+Similarly, 3.2 is a floating point number and "Hello" is a string (sequence of characters) assigned to the variables b and c respectively.
+---
+
+### Multiple assignments
+In Python, multiple assignments can be made in a single statement as follows:
+
+```python
+a, b, c = 5, 3.2, "Hello"
+```
+If we want to assign the same value to multiple variables at once, we can do this as
+
+```python
+x = y = z = "same"
+```
+This assigns the "same" string to all the three variables.
+---
+
+### Data types in Python
+
+<br>
+Every value in Python has a datatype. Since everything is an object in Python programming, data types are actually classes and variables are instance (object) of these classes.
+
+There are various data types in Python. Some of the important types are listed below.
+---
+
+### Python Numbers
+<br>
+Integers, floating point numbers and complex numbers falls under Python numbers category. They are defined as int, float and complex class in Python.
+---
+
+We can use the type() function to know which class a variable or a value belongs to and the isinstance() function to check if an object belongs to a particular class.
+```python
+a = 5
+print(a, "is of type", type(a))
+
+a = 2.0
+print(a, "is of type", type(a))
+
+a = 1+2j
+print(a, "is complex number?", isinstance(1+2j,complex))
+```
+---
+<br>
+Integers can be of any length, it is only limited by the memory available.
+<br>
+A floating point number is accurate up to 15 decimal places. Integer and floating points are separated by decimal points. 1 is integer, 1.0 is floating point number.
+Complex numbers are written in the form, x + yj, where x is the real part and y is the imaginary part. Here are some examples.
