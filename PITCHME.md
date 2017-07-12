@@ -48,16 +48,12 @@ Python. It helps differentiating one entity from another.
 
 ## Rules for writting Identifiers
 
-<ol>
-<ol>Identifiers can be a combination of letters in lowercase (a to z) or uppercase (A to 
-Z) or digits (0 to 9) or an underscore (_). Names like myClass, var_1 and 
-print_this_to_screen, all are valid example.</ol>
-<ol>An identifier cannot start with a digit. 1variable is invalid, but variable1 is 
-perfectly fine.</ol>
-<ol>Keywords cannot be used as identifiers.</ol>
+<li>
+<li>Identifiers can be a combination of letters in lowercase (a to z) or uppercase (A to Z) or digits (0 to 9) or an underscore (_). Names like myClass, var_1 and print_this_to_screen, all are valid example.</li>
+<li>An identifier cannot start with a digit. 1variable is invalid, but variable1 is perfectly fine.</li>
 
 ---
-
+<li>Keywords cannot be used as identifiers.</li>
 ```python
 >>> global = 1
   File "<interactive input>", line 1
@@ -65,11 +61,10 @@ perfectly fine.</ol>
            ^
 SyntaxError: invalid syntax
 ```
-<ol>
-<ol>We cannot use special symbols like !, @, #, $, % etc. in our identifier.</ol>
 
 ---
 
+<li>We cannot use special symbols like !, @, #, $, % etc. in our identifier.</li>
 ```python
 >>> a@ = 0
   File "<interactive input>", line 1
@@ -77,7 +72,7 @@ SyntaxError: invalid syntax
      ^
 SyntaxError: invalid syntax
 ```
-<ol>Identifier can be of any length.</ol>
+<li>Identifier can be of any length.</li>
 
 ---
 
