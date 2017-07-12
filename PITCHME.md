@@ -16,7 +16,6 @@ We cannot use a keyword as variable name, function name or any other identifier.
 are used to define the syntax and structure of the Python language.
 
 In Python, keywords are case sensitive.
-
 There are 33 keywords in Python 3.3. This number can vary slightly in course of time.
 
 All the keywords except True, False and None are in lowercase and they must be written 
@@ -85,7 +84,6 @@ SyntaxError: invalid syntax
 #### Things to care about
 <br>
 Python is a case-sensitive language. This means, Variable and variable are not the same. 
-
 Always name identifiers that make sense.
 
 <br>
@@ -272,11 +270,11 @@ Function to double the value
 ```
 ---
 ### Python Variables
-<br>
+
 A variable is a location in memory used to store some data (value).
-
+<br>
 They are given unique names to differentiate between different memory locations. The rules for writing a variable name is same as the rules for writing identifiers in Python.
-
+<br>
 We don't need to declare a variable before using it. In Python, we simply assign a value to a variable and it will exist. We don't even have to declare the type of the variable. This is handled internally according to the type of value we assign to the variable.
 
 ---
