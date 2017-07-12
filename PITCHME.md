@@ -767,6 +767,8 @@ Python has a number of operators which are classified below.
 #### Arithmetic operators
 Arithmetic operators are used to perform mathematical operations like addition, subtraction, multiplication etc.
 
+---
+
 | operator | Meaning | Example |
 |---|--------------------------------|---------|
 | + | Add two operands or unary plus | x + y +2 |
