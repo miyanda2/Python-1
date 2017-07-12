@@ -27,9 +27,9 @@ as it is. The list of all the keywords are given below.
 
 ---
 ## Keywords in Python programming language
-
-| Method | Description |
+_
 | False | class	| finally | is	|return |
+|------|--------|---------|-----|-------|
 | None	| continue | for | lambda | try |
 |True | def | from | nonlocal | while |
 | and | del | global | not | with |
