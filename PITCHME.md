@@ -38,15 +38,16 @@ as it is. The list of all the keywords are given below.
  <br>
 Looking at all the keywords at once and trying to figure out what they mean might be 
 overwhelming.
-
 ---
 
 ### Python Identifiers
+
 <br>
 Identifier is the name given to entities like class, functions, variables etc. in 
 Python. It helps differentiating one entity from another.
 
 ## Rules for writting Identifiers
+
 <ol>
 <ol>Identifiers can be a combination of letters in lowercase (a to z) or uppercase (A to 
 Z) or digits (0 to 9) or an underscore (_). Names like myClass, var_1 and 
@@ -75,8 +76,8 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 ```
 <ol>Identifier can be of any length.</ol>
-
 ---
+
 #### Things to care about
 <br>
 Python is a case-sensitive language. This means, Variable and variable are not the same. 
@@ -87,6 +88,7 @@ Always name identifiers that make sense.
 While, c = 10 is valid. Writing count = 10 would make more sense and it would be easier 
 to figure out what it does even when you look at your code after a long gap.
 Multiple words can be separated using an underscore, this_is_a_long_variable.
+
 ---
 
 <br>
