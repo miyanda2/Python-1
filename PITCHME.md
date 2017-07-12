@@ -53,7 +53,7 @@ Python. It helps differentiating one entity from another.
 <li>An identifier cannot start with a digit. 1variable is invalid, but variable1 is perfectly fine.</li>
 
 ---
-<li>Keywords cannot be used as identifiers.</li>
+
 ```python
 >>> global = 1
   File "<interactive input>", line 1
@@ -61,10 +61,10 @@ Python. It helps differentiating one entity from another.
            ^
 SyntaxError: invalid syntax
 ```
-
+<li>Keywords cannot be used as identifiers.</li>
 ---
 
-<li>We cannot use special symbols like !, @, #, $, % etc. in our identifier.</li>
+
 ```python
 >>> a@ = 0
   File "<interactive input>", line 1
@@ -72,6 +72,7 @@ SyntaxError: invalid syntax
      ^
 SyntaxError: invalid syntax
 ```
+<li>We cannot use special symbols like !, @, #, $, % etc. in our identifier.</li>
 <li>Identifier can be of any length.</li>
 
 ---
