@@ -1,5 +1,4 @@
 
-
 ## Sheriff Adeoti
 <br>
 <span style="color:#536DFE">Python</span>
@@ -22,6 +21,7 @@ There are 33 keywords in Python 3.3. This number can vary slightly in course of 
 
 All the keywords except True, False and None are in lowercase and they must be written 
 as it is. The list of all the keywords are given below.
+
 ---
 
 ## Keywords in Python programming language
@@ -38,6 +38,7 @@ as it is. The list of all the keywords are given below.
  <br>
 Looking at all the keywords at once and trying to figure out what they mean might be 
 overwhelming.
+
 ---
 
 ### Python Identifiers
@@ -55,6 +56,7 @@ print_this_to_screen, all are valid example.</ol>
 <ol>An identifier cannot start with a digit. 1variable is invalid, but variable1 is 
 perfectly fine.</ol>
 <ol>Keywords cannot be used as identifiers.</ol>
+
 ---
 
 ```python
@@ -66,6 +68,7 @@ SyntaxError: invalid syntax
 ```
 <ol>
 <ol>We cannot use special symbols like !, @, #, $, % etc. in our identifier.</ol>
+
 ---
 
 ```python
@@ -76,6 +79,7 @@ SyntaxError: invalid syntax
 SyntaxError: invalid syntax
 ```
 <ol>Identifier can be of any length.</ol>
+
 ---
 
 #### Things to care about
@@ -96,6 +100,7 @@ We can also use camel-case style of writing, i.e., capitalize every first letter
 word except the initial word without any spaces. For example: camelCaseExample
 
 ---
+
 ## Python Statement, Indentation and Comments
 
 #### Python Statement
@@ -105,6 +110,7 @@ Instructions that a Python interpreter can execute are called statements. For ex
 = 1 is an assignment statement. if statement, for statement, while statement etc. are 
 
 other kinds of statements which will be discussed later.
+
 ---
 
 #### Multi-line statement
@@ -120,6 +126,7 @@ a = 1 + 2 + 3 + \
     7 + 8 + 9
 ```
 ---
+
 <br>
 This is explicit line continuation. In Python, line continuation is implied inside 
 parentheses ( ), brackets [ ] and braces { }. For instance, we can implement the above 
@@ -159,6 +166,7 @@ code. Python uses indentation.
 A code block (body of a function, loop etc.) starts with indentation and ends with the 
 first unindented line. The amount of indentation is up to you, but it must be consistent 
 throughout that block.
+
 ---
 
 Generally four whitespaces are used for indentation and is preferred over tabs. Here is 
@@ -170,11 +178,10 @@ for i in range(1,11):
 	if i == 5:
 		break
 ```
-
+<br>
 The enforcement of indentation in Python makes the code look neat and clean. This 
 results into Python programs that look similar and consistent.
 
-<br>
 Indentation can be ignored in line continuation. But it's a good idea to always indent. 
 It makes the code more readable. For example:
 
@@ -200,6 +207,7 @@ Comments are very important while writing a program. It describes what's going o
 a program so that a person looking at the source code does not have a hard time figuring 
 it out. You might forget the key details of the program you just wrote in a month's 
 time. So taking time to explain these concepts in form of comments is always fruitful.
+
 ---
 
 In Python, we use the hash (#) symbol to start writing a comment.
@@ -214,6 +222,7 @@ understanding of a program. Python Interpreter ignores comment.
 print('Hello')
 ```
 ---
+
 #### Multi-line comments
 <br>
 If we have comments that extend multiple lines, one way of doing it is to use hash (#) 
@@ -269,6 +278,7 @@ A variable is a location in memory used to store some data (value).
 They are given unique names to differentiate between different memory locations. The rules for writing a variable name is same as the rules for writing identifiers in Python.
 
 We don't need to declare a variable before using it. In Python, we simply assign a value to a variable and it will exist. We don't even have to declare the type of the variable. This is handled internally according to the type of value we assign to the variable.
+
 ---
 
 ### Variable assignment
@@ -282,6 +292,7 @@ c = "Hello"
 <br>
 Here, we have three assignment statements. 5 is an integer assigned to the variable a.
 Similarly, 3.2 is a floating point number and "Hello" is a string (sequence of characters) assigned to the variables b and c respectively.
+
 ---
 
 ### Multiple assignments
@@ -296,6 +307,7 @@ If we want to assign the same value to multiple variables at once, we can do thi
 x = y = z = "same"
 ```
 This assigns the "same" string to all the three variables.
+
 ---
 
 ### Data types in Python
@@ -309,6 +321,7 @@ There are various data types in Python. Some of the important types are listed b
 ### Python Numbers
 <br>
 Integers, floating point numbers and complex numbers falls under Python numbers category. They are defined as int, float and complex class in Python.
+
 ---
 
 We can use the type() function to know which class a variable or a value belongs to and the isinstance() function to check if an object belongs to a particular class.
@@ -325,6 +338,6 @@ print(a, "is complex number?", isinstance(1+2j,complex))
 ---
 <br>
 Integers can be of any length, it is only limited by the memory available.
-<br>
+
 A floating point number is accurate up to 15 decimal places. Integer and floating points are separated by decimal points. 1 is integer, 1.0 is floating point number.
 Complex numbers are written in the form, x + yj, where x is the real part and y is the imaginary part. Here are some examples.
