@@ -25,7 +25,6 @@ as it is. The list of all the keywords are given below.
 
 ## Keywords in Python programming language
 
-<br>
 | False | class	| finally | is	|return |
 |------|--------|---------|-----|-------|
 | None	| continue | for | lambda | try |
@@ -34,6 +33,7 @@ as it is. The list of all the keywords are given below.
 | as | elif | if | or |	yield |
 | assert | else	| import | pass |
 | break	| except | in | rais |
+
  <br>
 Looking at all the keywords at once and trying to figure out what they mean might be 
 overwhelming.
@@ -41,14 +41,11 @@ overwhelming.
 ---
 
 ### Python Identifiers
-
 <br>
 Identifier is the name given to entities like class, functions, variables etc. in 
 Python. It helps differentiating one entity from another.
 
 ## Rules for writting Identifiers
-
-<li>
 <li>Identifiers can be a combination of letters in lowercase (a to z) or uppercase (A to Z) or digits (0 to 9) or an underscore (_). Names like myClass, var_1 and print_this_to_screen, all are valid example.</li>
 <li>An identifier cannot start with a digit. 1variable is invalid, but variable1 is perfectly fine.</li>
 
