@@ -28,7 +28,7 @@ as it is. The list of all the keywords are given below.
 ---
 ## Keywords in Python programming language
 
-<br>_
+<br>
 | False | class	| finally | is	|return |
 |------|--------|---------|-----|-------|
 | None	| continue | for | lambda | try |
@@ -114,6 +114,7 @@ Instructions that a Python interpreter can execute are called statements. For ex
 = 1 is an assignment statement. if statement, for statement, while statement etc. are 
 
 other kinds of statements which will be discussed later.
+---
 
 #### Multi-line statement
 
@@ -143,6 +144,8 @@ a = (1 + 2 + 3 +
     4 + 5 + 6 +
     7 + 8 + 9)
 ```
+---
+
 <br>
 Here, the surrounding parentheses ( ) do the line continuation implicitly. Same is the 
 
