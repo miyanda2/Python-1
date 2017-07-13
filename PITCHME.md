@@ -23,7 +23,7 @@ as it is. The list of all the keywords are given below.
 
 ---
 
-## Keywords in Python programming language
+### Keywords in Python programming language
 
 | False | class	| finally | is	|return |
 |------|--------|---------|-----|-------|
@@ -33,7 +33,6 @@ as it is. The list of all the keywords are given below.
 | as | elif | if | or |	yield |
 | assert | else	| import | pass |
 | break	| except | in | rais |
-
  <br>
 Looking at all the keywords at once and trying to figure out what they mean might be 
 overwhelming.
@@ -768,7 +767,7 @@ Python has a number of operators which are classified below.
 Arithmetic operators are used to perform mathematical operations like addition, subtraction, multiplication etc.
 
 ---
-
+<br>
 | operator | Meaning | Example |
 |---|--------------------------------|---------|
 | + | Add two operands or unary plus | x + y +2 |
