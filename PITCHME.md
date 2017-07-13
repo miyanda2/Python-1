@@ -995,6 +995,7 @@ in and not in are the membership operators in Python. They are used to test whet
 ---
 
 In a dictionary we can only test for presence of key, not the value.
+
 | Operator | Meaning | Example |
 |----------|---------|---------|
 | in | True if value/variable is found in the sequence | 5 in x |
