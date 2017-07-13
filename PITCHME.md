@@ -765,9 +765,7 @@ Python has a number of operators which are classified below.
 
 #### Arithmetic operators
 Arithmetic operators are used to perform mathematical operations like addition, subtraction, multiplication etc.
-
 ---
-<br>
 | operator | Meaning | Example |
 |---|--------------------------------|---------|
 | + | Add two operands or unary plus | x + y +2 |
@@ -777,3 +775,30 @@ Arithmetic operators are used to perform mathematical operations like addition, 
 | % |	Modulus - remainder of the division of left operand by the right | x % y (remainder of x/y) |
 | // |	Floor division - division that results into whole number adjusted to the left in the number line | x // y |
 | ** |	Exponent - left operand raised to the power of right | x**y (x to the power y) |
+
+---
+#### Example #1: Arithmetic operators in Python
+```python
+y = 4
+
+# Output: x + y = 19
+print('x + y =',x+y)
+
+# Output: x - y = 11
+print('x - y =',x-y)
+
+# Output: x * y = 60
+print('x * y =',x*y)
+
+# Output: x / y = 3.75
+print('x / y =',x/y)
+
+# Output: x // y = 3
+print('x // y =',x//y)
+
+# Output: x ** y = 50625
+print('x ** y =',x**y)
+```
+
+---
+
